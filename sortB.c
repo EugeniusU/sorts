@@ -5,6 +5,10 @@
 #define MAX3 USHRT_MAX
 
 int sequence(int from, int to);
+int minF(int x, int y);
+int maxF(int x, int y);
+int sortB(int *array, int length);
+void each(int *array, int length);
 
 main() {
 //    printf("%d\n", MAX3);
