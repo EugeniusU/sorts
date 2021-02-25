@@ -57,7 +57,7 @@ int maxF(int x, int y) {
     return x < y ? y : x;
 }
 
-sortB(int *array, int length) {
+int sortB(int *array, int length) {
     int j = 0;
 
     while (length > 0) {
